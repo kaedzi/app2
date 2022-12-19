@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+background-color: #202020;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.aset {
+
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+
+}
+
+input {
+    grid-column: span 4;
+    height: 100px;
+    text-align: end;
+    outline: none;
+    padding: 0 15px;
+    font-size: 35px;
+    font-family: monospace;
+    border: none;
+    color: aliceblue;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: #252525;
+    font-family: monospace;
+    font-size: 20px;
+    color: #ccc;
+
+}
+button:active{
+    background-color: rgb(48, 218, 18);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.base {
+    border: 2px solid lightslategray;
+    border-radius: 10px;
+    width: 450px;
+    height: 500px;
+    position: fixed;
+    top: 20px;
+    right: 400px;
+    bottom: 20px;
+    left: 400px;
+}
+
+.p1 {
+    position: fixed;
+    top: 35px;
+    border: 2px solid black;
+    height: 50px;
+    width: 448px;
+}
+
+table {
+    width: 450px;
+    height: 375px;
+    border-radius: 10px;
+}
+
+td {
+    border-radius: 10px;
+}
+
+.numbersp {
+    position: fixed;
+    top: 150px;
+
+}
+
+p {
+    border-radius: 10px;
+    font-size: xx-large;
+    word-wrap: break-word;
+
+    overflow: hidden;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+
+}
+
+input{
+    font-style: none;
+}
+*/
